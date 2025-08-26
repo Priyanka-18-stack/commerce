@@ -84,6 +84,6 @@ Once you have the project running locally or on the live demo, here’s how to u
 - The cart icon at the top-right updates with the total quantity of items.
 
 ---
-### **Acknowledgements****
+### **Acknowledgements**
 
 Thank you for checking out this project! Your support and feedback are much appreciated.
