@@ -1,40 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🛍️ E-commerce App
 
-## Getting Started
+## **1. Project Title**
+** E-commerce App** – A responsive web application that displays products from [FakeStoreAPI](https://fakestoreapi.com) and allows users to browse, search, filter, and add items to a cart.  
+Live demo:https://commerce-git-main-priyankas-projects-c93a9431.vercel.app/
+---
 
-First, run the development server:
+## **2. Project Description**
+This project is a **fully responsive E-commerce web application** built with **Next.js**, **React**, **Tailwind CSS**, and **React Query**.  
+
+**Key highlights:**
+- Fetches products from FakeStoreAPI to display in a grid layout.
+- Allows users to **search products** by title and **filter by category**.
+- Users can **view product details** in a modal.
+- Add products to a **shopping cart** with quantity management.
+- Responsive design ensures usability on **desktop, tablet, and mobile devices**.
+
+**Why these technologies were used:**
+- **Next.js** for server-side rendering and SEO-friendly pages.
+- **React** for component-based UI.
+- **Tailwind CSS** for fast, responsive, and modern styling.
+- **React Query** for simplified API data fetching and caching.
+- **Zustand** for lightweight state management.
+.
+
+---
+
+##  How to Install and Run the Project
+
+Follow these steps to get the project running **locally** on your machine:
+
+---
+
+### Step 1: Clone the repository
+Open your terminal and run:
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/fake-store-app.git
+cd fake-store-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+http://localhost:3000
+npm run build
+npm start
+
 ```
+## How to Use the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once you have the project running locally or on the live demo, here’s how to use it:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### **Browse Products**
+- On the homepage, you will see all products displayed in a **grid layout**.
+- Each product shows:
+  - **Title**
+  - **Description**
+  - **Price**
+  - **Image** (with fallback if the image is broken)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Search Products**
+- Use the **search bar** at the top to filter products by their title.
+- The product list updates in real-time as you type.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### **Filter by Category**
+- Use the **category dropdown** to filter products by category.
+- Default selection is **All Categories**, showing all products.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **View Product Details**
+- Click the **"View"** button on any product card.
+- A **modal** will open showing detailed information about the product.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Add Products to Cart**
+- Click the **"Add"** button to add a product to your cart.
+- The cart icon at the top-right updates with the total quantity of items.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
