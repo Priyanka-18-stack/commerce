@@ -1,11 +1,11 @@
 # 🛍️ E-commerce App
 
-## **1. Project Title**
+## **Project Title**
 ** E-commerce App** – A responsive web application that displays products from [FakeStoreAPI](https://fakestoreapi.com) and allows users to browse, search, filter, and add items to a cart.  
 Live demo:https://commerce-git-main-priyankas-projects-c93a9431.vercel.app/
 ---
 
-## **2. Project Description**
+## **Project Description**
 This project is a **fully responsive E-commerce web application** built with **Next.js**, **React**, **Tailwind CSS**, and **React Query**.  
 
 **Key highlights:**
@@ -31,7 +31,7 @@ Follow these steps to get the project running **locally** on your machine:
 
 ---
 
-### Step 1: Clone the repository
+### Clone the repository
 Open your terminal and run:
 
 ```bash
