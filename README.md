@@ -85,17 +85,19 @@ Once you have the project running locally or on the live demo, here’s how to u
 - Click the **"Add"** button to add a product to your cart.
 - The cart icon at the top-right updates with the total quantity of items.
 
----<img width="1901" height="856" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/a46282a3-77da-48bb-b4a9-9f754c7dba63" />
 
 ###**screenshots**
 -homepage-
 <img width="1901" height="856" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/b858f4be-ef8c-4e8b-986a-df59bb0f9961" />
 -while selecting jewels in category-
 <img width="1843" height="852" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/8d1066b1-1296-4e45-b581-a3b3417efe51" />
--adding products--
+-While entering "Acer" (or any keyword) in the search bar, the app filters products in real-time based on the input.-
+<img width="1715" height="854" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/f2ee4bc0-6ae7-4b7d-823b-f89e2e3f3294" />
+-adding products-
 <img width="1536" height="783" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/d9c3df81-123a-405d-9d9d-d03404b081f7" />
 <img width="1536" height="864" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/324778ed-2e66-43f9-9e39-13b28e68528a" />
 <img width="1536" height="826" alt="Screenshot (25) (2)" src="https://github.com/user-attachments/assets/cf72487a-3780-4264-9ad8-5aaeafca7d6c" />
+-After refreshing the page, added products disappear because they are not yet saved in the backend. Currently, products are only stored locally in the frontend state-
 <img width="1697" height="852" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/38105562-0170-44ce-96b4-39626f9b7ead" />
 
 ### **Acknowledgements**
