@@ -77,6 +77,9 @@ Once you have the project running locally or on the live demo, here’s how to u
 - A **modal** will open showing detailed information about the product.
 
 ---
+### **Acknowledgements****
+
+Thank you for checking out this project! Your support and feedback are much appreciated.
 
 ### **Add Products to Cart**
 - Click the **"Add"** button to add a product to your cart.
